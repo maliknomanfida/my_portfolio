@@ -1,26 +1,18 @@
-# Personal Portfolio Website - Django Assignment
+# Personal Portfolio Website
 
-Yeh project mera Personal Portfolio Website assignment hai jise Django framework mein develop kiya gaya hai. Is project ka maqsad meri technical skills aur projects ko ek organized platform par showcase karna hai.
+A clean, responsive portfolio website built with **Django**. 
 
-## 🚀 Key Project Requirements
-Is project mein maine following features implement kiye hain:
-* 3 Core Pages: Home, Projects, aur Contact pages.
-* Django Models: Contact model (name, email, subject, message, created_at) aur Project model ka use kiya hai.
-* Working Contact Form: Contact page par form submit karne se data automatically SQLite database mein save hota hai.
-* Admin Panel Integration: Database mein save hone wala data Django Admin Panel par view aur manage kiya ja sakta hai.
-* Static Files & Templates: Images aur CSS ko Django static tags ({% load static %}) ke zariye handle kiya hai.
+## Key Features
+*   **Dynamic Portfolio:** Easily manage projects and details.
+*   **Contact System:** Functional contact form that stores messages in a SQLite database.
+*   **Admin Panel:** Built-in Django Admin to manage site content effortlessly.
 
-## 🛠 Tech Stack
-* Backend: Python, Django 5.0.6
-* Database: SQLite
-* Frontend: HTML/CSS
-* Deployment: GitHub
+## Tech Stack
+*   **Backend:** Python, Django
+*   **Database:** SQLite
+*   **Frontend:** HTML5, CSS3
 
-## 📂 Project Structure
-```text
-my_portfolio/
-├── myportfolio/       # App logic and templates
-├── portfolio_project/ # Project settings
-├── media/             # Portfolio project images
-├── manage.py
-└── requirements.txt
+## Getting Started
+1. Clone the repo: `git clone https://github.com/maliknomanfida/my_portfolio.git`
+2. Install requirements: `pip install -r requirements.txt`
+3. Run the project: `python manage.py runserver`
