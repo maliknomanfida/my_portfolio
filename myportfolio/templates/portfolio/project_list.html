@@ -1,0 +1,20 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+
+{% block content %}
+<h1>My Projects</h1>
+<ul>
+    {% for project in projects %}
+        <li>
+            <h2>{{ project.title }}</h2>
+            {% if project.image %}
+    <img src="{{ project.image.url }}" alt="{{ project.title }}" width="200">
+{% endif %}
+            <p>{{ project.description }}</p>
+            <p><strong>Tech:</strong> {{ project.technology }}</p>
+        </li>
+    {% empty %}
+        <li>No projects found.</li>
+    {% endfor %}
+</ul>
+{% endblock %}
